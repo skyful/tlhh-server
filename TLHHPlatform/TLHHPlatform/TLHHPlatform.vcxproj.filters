@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{c4b67bc3-b4d5-4cf0-84f0-6b0a0b58fdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define\interface">
+      <UniqueIdentifier>{f6585399-3c54-4a47-92ec-fdadb85c72ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{75a62a9d-eb95-4b42-b230-87c7e1284f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{8c8c32dc-7afe-423c-8d60-baa8aba9f6f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Define\app_api.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\buffer_parseh.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\command.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\command_define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\console.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\const_define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\my_exception.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\platform.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\pool.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\server_user_item.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\tlhh_buffer.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\tlhh_client_param.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\tlhh_define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\tlhh_handler.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\utils.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\interface\attemp_net_work.h">
+      <Filter>Define\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\interface\attemp_client_work.h">
+      <Filter>Define\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server_user_manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tcp_client.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tcp_server.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tcp_socket.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shared\client_work_engine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shared\server_work_engine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mysql_client.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\interface\sql_client.h">
+      <Filter>Define\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shared\sql_manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mysql_reset.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Define\interface\sql_reset.h">
+      <Filter>Define\interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tlhh_platform.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\client_work_engine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server_user_manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tcp_client.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tcp_server.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tcp_socket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server_work_engine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mysql_client.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sql_manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sql_reset.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mysql_reset.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
