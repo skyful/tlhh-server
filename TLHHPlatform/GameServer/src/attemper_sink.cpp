@@ -22,7 +22,7 @@ attemper_sink::~attemper_sink()
 }
 
 bool attemper_sink::net_work_read(const std::string& unique_id, const tlhh::tcp::command& command, const char* buffer, const size_t& size)
-{
+{ 
 	CONSOLE_LOG(SERVER_LOG_NAME,tlhh::log_level::info, "recv unique_id:" << unique_id << " main:" << command.main_id << " sub:" << command.sub_id << " data:" << buffer);
 	
 	//work_engine_->send_data(unique_id, command.main_id, command.sub_id, buffer, size);
